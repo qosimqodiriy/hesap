@@ -1,0 +1,28 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_499_1079)">
+<circle cx="36" cy="36" r="36" fill="url(#paint0_radial_499_1079)"/>
+</g>
+<path opacity="0.4" d="M51 46.0001V29.3334C51 25.6515 48.0152 22.6667 44.3333 22.6667H29.3333H27.6667C23.9848 22.6667 21 25.6515 21 29.3334V46.0001C21 49.682 23.9848 52.6667 27.6667 52.6667H44.3333C48.0152 52.6667 51 49.682 51 46.0001Z" fill="white"/>
+<rect x="29.3334" y="19.3334" width="13.3333" height="6.66667" rx="3.33333" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.0834 32.6667C28.0834 31.9764 28.643 31.4167 29.3334 31.4167H42.6667C43.3571 31.4167 43.9167 31.9764 43.9167 32.6667C43.9167 33.3571 43.3571 33.9167 42.6667 33.9167H29.3334C28.643 33.9167 28.0834 33.3571 28.0834 32.6667Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.0834 39.3334C28.0834 38.643 28.643 38.0834 29.3334 38.0834H42.6667C43.3571 38.0834 43.9167 38.643 43.9167 39.3334C43.9167 40.0237 43.3571 40.5834 42.6667 40.5834H29.3334C28.643 40.5834 28.0834 40.0237 28.0834 39.3334Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.0834 46C28.0834 45.3096 28.643 44.75 29.3334 44.75H36C36.6904 44.75 37.25 45.3096 37.25 46C37.25 46.6904 36.6904 47.25 36 47.25H29.3334C28.643 47.25 28.0834 46.6904 28.0834 46Z" fill="white"/>
+<defs>
+<filter id="filter0_i_499_1079" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="12"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_499_1079"/>
+</filter>
+<radialGradient id="paint0_radial_499_1079" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.85022e-06 -15.8764) rotate(65.6068) scale(178.212 332.286)">
+<stop stop-color="#CEF3FC"/>
+<stop offset="0.28125" stop-color="#00A5FF"/>
+<stop offset="0.640625" stop-color="#0053DC"/>
+<stop offset="1" stop-color="#0027DC"/>
+</radialGradient>
+</defs>
+</svg>

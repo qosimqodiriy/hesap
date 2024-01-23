@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.twoclicks",
+    "sha256_cert_fingerprints":
+    ["5D:2A:C4:FD:15:4E:90:64:35:00:96:45:CB:80:95:1F:01:54:0F:3C:84:10:57:91:E0:C1:A7:F6:40:1F:08:24", "EC:08:74:65:6C:21:89:B9:C0:25:E2:E2:45:A8:8E:05:67:A9:55:21:40:7F:C3:D1:95:6A:B1:4B:84:64:50:F0"]
+  }
+}]
