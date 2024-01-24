@@ -3,7 +3,9 @@
     <div id="footer" class="box footer-inner">
       <div class="inner-top">
         <div class="inner-top-left">
-          <NuxtLink to="/" class="logo" aria-label="home"></NuxtLink>
+          <NuxtLink to="/" aria-label="home">
+            <img src="@/assets/media/h.png" style="width: 160px" alt="" />
+          </NuxtLink>
         </div>
         <div class="inner-top-right">
           <div class="socialmedia">

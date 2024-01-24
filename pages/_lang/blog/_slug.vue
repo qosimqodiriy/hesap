@@ -4,7 +4,7 @@
       <div class="minibox">
         <div class="top-info">
           <div class="news-card-category">
-            <p>2Clicks news</p>
+            <p>Hesap news</p>
             <span></span>
             <p>{{ post.date }}</p>
           </div>

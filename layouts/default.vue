@@ -29,8 +29,6 @@ export default {
       this.$route.params.lang
     )
 
-    console.log(translations.data)
-
     await this.$store.commit('getTranslations', translations)
   },
 

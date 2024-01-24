@@ -1,11 +1,9 @@
 <template>
   <header>
     <div class="box header-inner">
-      <NuxtLink
-        :to="`/${$route.params.lang}/#`"
-        class="logo"
-        aria-label="home"
-      ></NuxtLink>
+      <NuxtLink :to="`/${$route.params.lang}/#`" aria-label="home">
+        <img src="@/assets/media/h.png" style="width: 160px" alt="" />
+      </NuxtLink>
       <nav class="navigation">
         <NuxtLink
           @click="menuHandle = false"
@@ -167,6 +165,10 @@ export default {
 </script>
 
 <style scoped>
+header a img {
+  width: 100%;
+  height: 100%;
+}
 header {
   position: fixed;
   top: 0;
@@ -180,7 +182,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding-block: 24px;
+  padding-block: 16px;
 }
 .navigation {
   display: flex;

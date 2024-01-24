@@ -98,9 +98,9 @@ p {
   display: block;
   width: 210px;
   height: 60px;
-  background-image: url('@/assets/media/logo.svg');
+  /* background-image: url('@/assets/media/logo.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
 }
 
 .image {

@@ -187,7 +187,7 @@
               </div>
               <div class="news-card-content">
                 <div class="news-card-category">
-                  <p>2Clicks news</p>
+                  <p>Hesap news</p>
                   <span></span>
                   <p>{{ item.date }}</p>
                 </div>

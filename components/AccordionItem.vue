@@ -61,9 +61,7 @@ export default {
     end(el) {
       el.style.height = ''
     },
-    close() {
-      console.log('closed')
-    },
+    close() {},
   },
 }
 </script>
