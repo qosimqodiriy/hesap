@@ -1,10 +1,10 @@
 /* eslint-disable */
 
-;(function (m, e, t, r, i, k, a) {
+; (function (m, e, t, r, i, k, a) {
   m[i] =
     m[i] ||
     function () {
-      ;(m[i].a = m[i].a || []).push(arguments)
+      ; (m[i].a = m[i].a || []).push(arguments)
     }
   m[i].l = 1 * new Date()
   for (var j = 0; j < document.scripts.length; j++) {
@@ -12,7 +12,7 @@
       return
     }
   }
-  ;(k = e.createElement(t)),
+  ; (k = e.createElement(t)),
     (a = e.getElementsByTagName(t)[0]),
     (k.async = 1),
     (k.src = r),
