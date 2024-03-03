@@ -14,13 +14,15 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  vue: {
+    defineModel: true
+  },
+
   css: ['@/assets/css/main.css'],
 
   plugins: ['@/plugins/yandex.js'],
 
   components: true,
-
-  buildModules: ['@nuxtjs/eslint-module'],
 
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios'],
 

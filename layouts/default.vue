@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <TheHeader />
+    <TheHeader v-if="$route.name != 'lang-delete'" />
     <nuxt />
-    <TheFooter />
+    <TheFooter v-if="$route.name != 'lang-delete'" />
   </div>
 </template>
 
