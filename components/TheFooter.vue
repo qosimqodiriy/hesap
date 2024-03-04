@@ -70,6 +70,7 @@
               $store.state.translations['main.faq']
             }}</NuxtLink>
           </nav>
+
           <nav class="platforms">
             <a
               href="https://play.google.com/store/apps/details?id=app.twoclicks"
@@ -100,10 +101,10 @@
             </p>
           </div>
           <div class="infos">
-            <a href="https://2clicks.uz/offerta/" target="_blank">{{
+            <a :href="`https://hesap.uz/${$route.params.lang}/privacy`" target="_blank">{{
               $store.state.translations['main.policy']
             }}</a>
-            <a href="https://2clicks.uz/offerta/" target="_blank">{{
+            <a :href="`https://hesap.uz/${$route.params.lang}/offerta`" target="_blank">{{
               $store.state.translations['main.terms']
             }}</a>
           </div>
