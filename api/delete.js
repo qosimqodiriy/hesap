@@ -1,7 +1,7 @@
 export default {
     async Request_API(axios, phone) {
         try {
-            axios.defaults.baseURL = 'https://test.hesap.uz/api/v1/';
+            axios.defaults.baseURL = 'https://api.hesap.uz/api/v1/';
             const response = await axios.post('web/delete/request', {
                 phone,
             })
@@ -16,7 +16,7 @@ export default {
 
     async Prepare_API(axios, formdata) {
         try {
-            axios.defaults.baseURL = 'https://test.hesap.uz/api/v1/';
+            axios.defaults.baseURL = 'https://api.hesap.uz/api/v1/';
             axios.defaults.headers.common = {'Authorization': `Bearer ${formdata.token}`}
 
             const response = await axios.post('web/delete/prepare', {
@@ -35,7 +35,7 @@ export default {
 
     async Confirm_API(axios, formData) {
         try {
-            axios.defaults.baseURL = 'https://test.hesap.uz/api/v1/';
+            axios.defaults.baseURL = 'https://api.hesap.uz/api/v1/';
             axios.defaults.headers.common = {'Authorization': `Bearer ${formData.token}`}
 
             const response = await axios.post('web/delete/confirm', {
@@ -51,7 +51,7 @@ export default {
 
     async Reject_API(axios, token) {
         try {
-            axios.defaults.baseURL = 'https://test.hesap.uz/api/v1/';
+            axios.defaults.baseURL = 'https://api.hesap.uz/api/v1/';
             axios.defaults.headers.common = {'Authorization': `Bearer ${token}`}
 
             const response = await axios.post('web/delete/reject')
