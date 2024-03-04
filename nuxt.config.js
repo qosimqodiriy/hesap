@@ -27,13 +27,13 @@ export default {
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios'],
 
   axios: {
-    baseURL: 'https://2clicks.pythonanywhere.com/api',
+    baseURL: 'https://apihesap.pythonanywhere.com/api',
   },
   ssr: false,
   build: {},
-  // target: 'server',
-  // server: {
-  //   port: 3000,
-  //   host: '0.0.0.0',
-  // },
+   target: 'server',
+   server: {
+     port: 4450,
+     host: '0.0.0.0',
+   },
 }
