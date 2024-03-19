@@ -53,7 +53,7 @@
       </div>
     </section>
     <HomeRegistration :images="images" />
-    <HomeVideos />
+    <!-- <HomeVideos /> -->
     <section class="section" id="advantages">
       <div class="box section-inner">
         <h3 class="section-title center">
