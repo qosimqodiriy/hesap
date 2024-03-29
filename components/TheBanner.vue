@@ -26,7 +26,7 @@
                 href="https://play.google.com/store/apps/details?id=app.twoclicks"
                 target="_blank"
               >
-                <img class="code" src="@/assets/media/andoid.png" alt="" />
+                <img class="code" src="@/assets/media/android.png" alt="" />
                 <img
                   class="platform"
                   src="@/assets/media/playmarket.svg"
