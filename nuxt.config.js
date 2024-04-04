@@ -31,9 +31,9 @@ export default {
   },
   ssr: false,
   build: {},
-  //  target: 'server',
-  //  server: {
-  //    port: 3000,
-  //    host: '0.0.0.0',
-  //  },
+   target: 'server',
+   server: {
+     port: 4450,
+     host: '0.0.0.0',
+   },
 }
