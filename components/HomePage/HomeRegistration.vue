@@ -14,42 +14,20 @@
               {{ $store.state.translations['main.registrate-txt-2'] }}
             </p>
             <div class="buttons">
-              <a
-                target="_blank"
-                href="https://apps.apple.com/uz/app/2clicks/id6444673015"
-                class="blue"
-              >
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+              <a target="_blank" href="https://apps.apple.com/uz/app/hesap/id6444673015" class="blue">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21.333 15.167V18.214C21.333 19.871 19.99 21.214 18.333 21.214H5.66699C4.00999 21.214 2.66699 19.871 2.66699 18.214V15.167M17.748 10.777L12.035 16.49L6.32199 10.777M12.035 3.177V16.473"
-                    stroke="#0053dc"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
+                    stroke="#0053dc" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round" />
                 </svg>
-                {{ $store.state.translations['main.download'] }}</a
-              >
+                {{ $store.state.translations['main.download'] }}</a>
             </div>
           </div>
           <div class="col-lg-6 col-xs-12 right">
             <!-- <img src="@/assets/media/phone.svg" alt="" class="pic" /> -->
             <img src="@/assets/media/round.svg" alt="" class="round" />
-            <video
-              autoplay
-              muted
-              playsinline
-              loop
-              :src="images[5].image"
-              class="pic"
-            ></video>
+            <video autoplay muted playsinline loop :src="images[5].image" class="pic"></video>
           </div>
         </div>
       </div>
@@ -65,28 +43,30 @@ export default {
 
 <style scoped>
 .cardo {
-  background: radial-gradient(
-    225.42% 620.37% at 0% -22.05%,
-    #cef3fc 0%,
-    #00a5ff 28.12%,
-    #0053dc 64.06%,
-    #0027dc 100%
-  );
+  background: radial-gradient(225.42% 620.37% at 0% -22.05%,
+      #cef3fc 0%,
+      #00a5ff 28.12%,
+      #0053dc 64.06%,
+      #0027dc 100%);
   border-radius: 40px;
   padding: 50px 152px;
   overflow: hidden;
 }
+
 .pic {
   width: 100%;
 }
+
 .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .wrap {
   padding: 90px 0 0 0;
 }
+
 .title {
   font-weight: 800;
   font-size: 40px;
@@ -96,6 +76,7 @@ export default {
   margin-bottom: 24px;
   font-family: var(--font-halvar-black);
 }
+
 .txt {
   font-weight: 400;
   font-size: 18px;
@@ -104,11 +85,13 @@ export default {
   margin-bottom: 24px;
   max-width: 90%;
 }
+
 .buttons {
   display: flex;
   align-items: center;
   gap: 14px;
 }
+
 .blue {
   background: white;
   border-radius: 16px;
@@ -123,16 +106,20 @@ export default {
   align-items: center;
   gap: 16px;
 }
+
 .blue:hover {
   background: #0027dc;
   color: white;
 }
+
 .blue svg path {
   transition: 0.4s;
 }
+
 .blue:hover svg path {
   stroke: white;
 }
+
 .white {
   font-weight: 700;
   font-size: 18px;
@@ -149,12 +136,14 @@ export default {
   color: white;
   border-color: #0027dc;
 }
+
 .right {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .round {
   position: absolute;
   top: 50%;
@@ -163,6 +152,7 @@ export default {
   width: 480px;
   height: 480px;
 }
+
 .pic {
   width: auto;
   height: 500px;
@@ -170,23 +160,28 @@ export default {
   position: relative;
   z-index: 9;
 }
+
 @media screen and (max-width: 1024px) {
   .cardo {
     padding: 24px;
     border-radius: 16px;
   }
+
   .title {
     font-weight: 800;
     font-size: 20px;
     line-height: 120%;
   }
+
   .buttons {
     flex-direction: column;
   }
+
   .buttons a {
     width: 100%;
     text-align: center;
   }
+
   .left {
     margin-bottom: 40px;
   }
