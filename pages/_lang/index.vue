@@ -19,8 +19,7 @@
           </div>
           <a href="/file.pdf" download class="c-btn" id="chances">
             <img src="@/assets/media/download.svg" alt="" />
-            {{ $store.state.translations['main.download-book'] }}</a
-          >
+            {{ $store.state.translations['main.download-book'] }}</a>
         </div>
         <div class="about-video">
           <img src="@/assets/media/logo.svg" class="logo" alt="logo" />
@@ -32,7 +31,7 @@
             loop
             class="image"
           ></video> -->
-          <img :src="images[4].image" alt="" class="image" />
+          <img src="@/assets/media/2.png" alt="" class="image" />
         </div>
       </div>
     </section>
@@ -174,16 +173,9 @@
         </h3>
         <div class="news-container">
           <div v-for="item in news" :key="item.id" class="item">
-            <NuxtLink
-              :to="`/${$route.params.lang}/blog/${item.slug}`"
-              class="news-card"
-            >
+            <NuxtLink :to="`/${$route.params.lang}/blog/${item.slug}`" class="news-card">
               <div class="news-image">
-                <img
-                  :src="item.image"
-                  alt="Uydan ishlash uchun yakuniy qo'llanma"
-                  class="image"
-                />
+                <img :src="item.image" alt="Uydan ishlash uchun yakuniy qo'llanma" class="image" />
               </div>
               <div class="news-card-content">
                 <div class="news-card-category">
@@ -299,30 +291,36 @@ export default {
   align-items: center;
   gap: 40px;
 }
+
 .about-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 77px;
 }
+
 .about-content-top {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .about-content-top div {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .about-content-top div p {
   font-size: 18px;
   line-height: 27px;
   color: var(--black);
 }
+
 .about-content-top div p span {
   color: var(--blue);
 }
+
 .about-video {
   position: relative;
   width: 100%;
@@ -330,6 +328,7 @@ export default {
   border-radius: 40px;
   border: 1px solid #dbdee8;
 }
+
 .about-video .logo {
   position: absolute;
   top: 32px;
@@ -339,12 +338,14 @@ export default {
   height: 40px;
   z-index: 9;
 }
+
 /* === Advantages === */
 .advantages-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
+
 .advantage-card {
   width: 100%;
   display: flex;
@@ -356,6 +357,7 @@ export default {
   border: 1.5px solid #ebf5ff;
   background-color: #ebf5ff;
 }
+
 .advantage-card:nth-child(2),
 .advantage-card:nth-child(4),
 .advantage-card:nth-child(5),
@@ -363,6 +365,7 @@ export default {
   background-color: var(--white);
   border: 1.5px solid #dbdee8;
 }
+
 .advantage-card-icon {
   width: 72px;
   height: 72px;
@@ -372,15 +375,18 @@ export default {
   background-color: var(--white);
   border-radius: 50%;
 }
+
 .advantage-card-icon img {
   width: 40px;
   height: 40px;
 }
+
 .advantage-card-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .advantage-card-title {
   font-family: var(--font-bold), sans-serif;
   font-weight: 700;
@@ -388,48 +394,59 @@ export default {
   line-height: 26px;
   color: var(--black);
 }
+
 .advantage-card-desc {
   font-family: var(--font-regular), sans-serif;
   font-size: 18px;
   line-height: 27px;
   color: #7f869b;
 }
+
 .news-image img {
   transition: 0.3s;
 }
+
 .news-card:hover .news-image img {
   transform: scale(1.1);
 }
+
 .news-card:hover .news-card-title {
   color: var(--blue);
 }
+
 .news-card-title {
   transition: 0.3s;
 }
+
 /* === RESPONSIVE === */
 @media (max-width: 1800px) {
   .advantages-container {
     gap: 20px;
   }
+
   .advantage-card {
     padding: 20px;
     border-radius: 24px;
     gap: 16px;
   }
+
   .advantage-card-desc {
     font-size: 16px;
     line-height: 24px;
   }
 }
+
 @media (max-width: 1200px) {
   .advantages-container {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
+
   .advantage-card {
     padding: 16px;
     border-radius: 20px;
   }
+
   .advantage-card:nth-child(2),
   .advantage-card:nth-child(4),
   .advantage-card:nth-child(5),
@@ -437,6 +454,7 @@ export default {
     background-color: #ebf5ff;
     border: 1px solid #ebf5ff;
   }
+
   .advantage-card:nth-child(2),
   .advantage-card:nth-child(3),
   .advantage-card:nth-child(6),
@@ -444,42 +462,51 @@ export default {
     background-color: var(--white);
     border: 1px solid #dbdee8;
   }
+
   .about-inner {
     grid-template-columns: repeat(1, 1fr);
     padding: 40px 16px;
   }
 }
+
 @media (max-width: 580px) {
   .advantage-card {
     min-height: 260px;
     border-radius: 23px;
   }
+
   .advantage-card-icon {
     width: 41px;
     height: 41px;
   }
+
   .advantage-card-icon img {
     width: 24px;
     height: 24px;
   }
+
   .advantage-card-title {
     font-size: 16px;
     line-height: 20px;
   }
+
   .advantage-card-desc {
     font-size: 12px;
     line-height: 18px;
   }
+
   .advantage-card-content {
     gap: 8px;
   }
 }
+
 .news-card {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .news-image {
   position: relative;
   width: 100%;
@@ -487,11 +514,13 @@ export default {
   border-radius: 40px;
   overflow: hidden;
 }
+
 .news-card-category {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+
 .news-card-category p {
   font-family: var(--font-medium), sans-serif;
   font-weight: 500;
@@ -499,6 +528,7 @@ export default {
   line-height: 21px;
   color: #7f869b;
 }
+
 .news-card-category span {
   display: block;
   width: 4px;
@@ -506,11 +536,13 @@ export default {
   background-color: #7f869b;
   border-radius: 50%;
 }
+
 .news-card-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .news-card-title {
   font-family: var(--font-halvar-bold), sans-serif;
   font-weight: 700;
@@ -525,31 +557,36 @@ export default {
     height: 280px;
     border-radius: 24px;
   }
+
   .news-card-content {
     gap: 8px;
   }
+
   .news-card-title {
     font-size: 18px;
     line-height: 27px;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .advantages-container {
     grid-template-columns: repeat(1, 1fr) !important;
     gap: 8px;
   }
 }
+
 @media (max-width: 880px) {
   .news-image {
     height: 225px;
   }
+
   .news-card-title {
     font-size: 16px;
     line-height: 20px;
   }
+
   .news-card-category p {
     font-size: 12px;
     line-height: 18px;
   }
-}
-</style>
+}</style>

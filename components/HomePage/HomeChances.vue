@@ -2,7 +2,7 @@
   <div class="wrap w-100">
     <div class="row">
       <div class="col-lg-6 col-xs-12">
-        <img class="pic" :src="images[1].image" alt="" />
+        <img class="pic" src="@/assets/media/3.png" alt="" />
       </div>
       <div class="col-lg-6 col-xs-12 gidle">
         <div class="items">
@@ -61,12 +61,14 @@ export default {
   height: 100%;
   object-fit: contain;
 }
+
 .items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-top: 36px;
 }
+
 .item {
   background: #ffffff;
   border: 1px solid #dbdee8;
@@ -75,16 +77,19 @@ export default {
   min-height: 380px;
   transition: 0.4s;
 }
+
 .item:hover {
   background: #ebf5ff;
   border: 1px solid #dbdee8;
 }
+
 .icon {
   width: 72px;
   height: 72px;
   object-fit: contain;
   margin-bottom: 24px;
 }
+
 .name {
   font-weight: 700;
   font-size: 24px;
@@ -94,16 +99,19 @@ export default {
   font-family: var(--font-halvar-bold);
   margin-bottom: 12px;
 }
+
 .sub {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #010e38;
 }
+
 .gidle {
   display: flex;
   align-items: center;
 }
+
 @media screen and (max-width: 1024px) {
   .items {
     grid-template-columns: repeat(1, 1fr);
