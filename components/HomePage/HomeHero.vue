@@ -39,7 +39,7 @@
         <div class="right"></div>
       </div>
       <div class="img">
-        <img :src="images[0].image" alt="" class="pic" />
+        <img src="@/assets/media/1.png" alt="" class="pic" />
       </div>
     </div>
   </div>

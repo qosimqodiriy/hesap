@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
 @font-face {
   font-family: 'Hauora-regular';
   src: url('@/assets/fonts/hauora/Hauora-Regular.ttf');
@@ -42,8 +44,8 @@
   --font-medium: 'Hauora-medium';
   --font-bold: 'Hauora-bold';
   --font-extrabold: 'Hauora-extrabold';
-  --font-halvar-black: 'Halvar-black';
-  --font-halvar-bold: 'Halvar-bold';
+  --font-halvar-black: 'Golos Text';
+  --font-halvar-bold: 'Golos Text';
 }
 
 *,

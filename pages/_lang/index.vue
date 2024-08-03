@@ -23,7 +23,15 @@
         </div>
         <div class="about-video">
           <img src="@/assets/media/logo.svg" class="logo" alt="logo" />
-          <img :src="images[4].image" alt="" class="image" />
+          <!-- <video
+            src="/video.mp4"
+            autoplay
+            muted
+            playsinline
+            loop
+            class="image"
+          ></video> -->
+          <img src="@/assets/media/2.png" alt="" class="image" />
         </div>
       </div>
     </section>
@@ -587,5 +595,4 @@ export default {
     font-size: 12px;
     line-height: 18px;
   }
-}
-</style>
+}</style>
