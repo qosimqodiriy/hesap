@@ -27,15 +27,15 @@
         </div>
       </div>
       <div class="minibox share-div">
-        <p>Source <span>Mazmoon</span></p>
+        <p>Source Hesap.uz</p>
         <div class="socialmedia">
-          <a href="#" target="_blank" rel="noreferrer" class="sm-link">
+          <a href="https://t.me/hesap_admin" target="_blank" rel="noreferrer" class="sm-link">
             <img src="@/assets/media/telegram.svg" alt="telegram" />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" class="sm-link">
+          <a href="https://www.youtube.com/@Hesapgroup" target="_blank" rel="noreferrer" class="sm-link">
             <img src="@/assets/media/youtube.svg" alt="telegram" />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" class="sm-link">
+          <a href="https://www.instagram.com/hesap.uz" target="_blank" rel="noreferrer" class="sm-link">
             <img src="@/assets/media/instagram.svg" alt="telegram" />
           </a>
         </div>

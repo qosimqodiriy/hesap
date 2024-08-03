@@ -14,24 +14,26 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  vue: {
+    defineModel: true
+  },
+
   css: ['@/assets/css/main.css'],
 
   plugins: ['@/plugins/yandex.js'],
 
   components: true,
 
-  buildModules: ['@nuxtjs/eslint-module'],
-
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios'],
 
   axios: {
-    baseURL: 'https://2clicks.pythonanywhere.com/api',
+    baseURL: 'https://apihesap.pythonanywhere.com/api',
   },
   ssr: false,
   build: {},
-  // target: 'server',
-  // server: {
-  //   port: 3000,
-  //   host: '0.0.0.0',
-  // },
+   target: 'server',
+   server: {
+     port: 4450,
+     host: '0.0.0.0',
+   },
 }

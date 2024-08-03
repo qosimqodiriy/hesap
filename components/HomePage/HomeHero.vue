@@ -11,8 +11,8 @@
             <img src="@/assets/media/download.svg" alt="" />
             {{ $store.state.translations['main.download'] }}</a>
           <NuxtLink :to="`/${$route.params.lang}/#chances`" class="white">{{
-            $store.state.translations['main.chances']
-          }}</NuxtLink>
+          $store.state.translations['main.chances']
+        }}</NuxtLink>
         </div>
       </div>
       <div class="bottom">
@@ -28,7 +28,7 @@
               <img class="platform" src="@/assets/media/appstore.svg" alt="" />
             </a>
             <a class="link" href="https://play.google.com/store/apps/details?id=app.twoclicks" target="_blank">
-              <img class="code" src="@/assets/media/andoid.png" alt="" />
+              <img class="code" src="@/assets/media/android.png" alt="" />
               <img class="platform" src="@/assets/media/playmarket.svg" alt="" />
             </a>
           </div>

@@ -35,6 +35,7 @@
         </div>
       </div>
     </section>
+
     <section class="section">
       <div class="box section-inner">
         <h3 class="section-title center">
@@ -43,6 +44,7 @@
         <HomeChances :images="images" />
       </div>
     </section>
+
     <section class="section">
       <div class="box section-inner">
         <h3 class="section-title center">
@@ -51,8 +53,9 @@
         <HomeHow :images="images" />
       </div>
     </section>
+
     <HomeRegistration :images="images" />
-    <HomeVideos />
+    <!-- <HomeVideos /> -->
     <section class="section" id="advantages">
       <div class="box section-inner">
         <h3 class="section-title center">
@@ -166,6 +169,7 @@
         </div>
       </div>
     </section>
+
     <section id="blog" class="section">
       <div class="box section-inner">
         <h3 class="section-title center">
@@ -195,6 +199,7 @@
         </div> -->
       </div>
     </section>
+
     <section class="section" id="faq">
       <div class="box section-inner">
         <h3 class="section-title center">
@@ -203,6 +208,7 @@
         <HomeFAQ :faq="faq" />
       </div>
     </section>
+
     <TheBanner :images="images" />
   </main>
 </template>
