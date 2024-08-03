@@ -27,7 +27,7 @@
           <div class="col-lg-6 col-xs-12 right">
             <!-- <img src="@/assets/media/phone.svg" alt="" class="pic" /> -->
             <img src="@/assets/media/round.svg" alt="" class="round" />
-            <video autoplay muted playsinline loop :src="images[5].image" class="pic"></video>
+            <!-- <video autoplay muted playsinline loop :src="images[5].image" class="pic"></video> -->
           </div>
         </div>
       </div>
